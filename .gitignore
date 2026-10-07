@@ -1,0 +1,45 @@
+# PentaHydra Engineering AI Systems
+*.env
+*.key
+*.pem
+*.pfx
+*.secret
+*.token
+*.credentials
+*.lock
+.DS_Store
+
+# Python environments
+__pycache__/
+*.pyc
+venv/
+.env.local
+
+# Database
+*.sqlite
+pgvector/
+*.gdbdump
+
+# Edge/IoT device configs
+device-credentials/
+edge-configs/
+
+# RAG and Knowledge Graph indices
+/chroma*
+/faiss-index*
+/knowledge-graph/db/
+
+# Agent runtime state
+/agent-state/
+/workspace/**
+
+# MCP adapter secrets
+/mcp/.credentials
+
+# AI provider configs (non-sensitive)
+/ai-provider/.config
+
+# Testing and samples
+/samples/
+/test-data/
+/examples/
